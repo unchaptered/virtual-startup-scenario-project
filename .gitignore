@@ -1,2 +1,8 @@
 # Python
 __pycache__
+
+# DJango
+db.sqlite3
+
+# Secrets
+config.yml

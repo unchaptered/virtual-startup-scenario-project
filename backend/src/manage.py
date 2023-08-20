@@ -3,6 +3,22 @@
 import os
 import sys
 
+# from dependency_injector import containers, providers
+
+# class EnvProvider():
+#     """
+#     Singleton Provider
+
+#     # Raises:
+#     #     ImportError: _description_
+#     """
+#     pass
+
+# class Container(containers.DeclarativeContainer):
+    
+#     getEnvProvider = providers.Singleton(EnvProvider)
+
+#     pass    
 
 def main():
     """Run administrative tasks."""
@@ -17,6 +33,14 @@ def main():
         ) from exc
     execute_from_command_line(sys.argv)
 
-
 if __name__ == "__main__":
+    # container = Container()
+    # envProvider1 = container.getEnvProvider()
+    # envProvider2 = container.getEnvProvider()
+    
+    # print('yaong')
+    # print(envProvider1)
+    # print(envProvider2)
+    # assert envProvider1 is envProvider2
+    
     main()
